@@ -46,7 +46,7 @@ It works briefly for now.
               _const char* sha)_ \
       - _char* deletefile(struct requestdata* data, const char* path, const char* message, const char* sha)_ \
       - additional sha argument is needed, you get it by using getfile() and then obtaining the sha value \
-        using jsonfind.h functions. it is shown in example main file \
+        using jsonfind.h functions. it is shown in example main file
 
 **Strnstr**: \
   - we should not forget about that! it is licensed, I got it from somewhere \
