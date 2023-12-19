@@ -14,7 +14,7 @@ It works briefly for now.
     - _char* jsongetpairvalue(const char* data, const int pairindex)_ \
       - it finds pair value based on pair index \
       - returns NULL if it doesn't succeed \
-  - I will add more function to jsonfind.h soon. \
+  - I will add more function to jsonfind.h soon.
 
 **Base64 encryption**: \
   - is in base64.h header file \
