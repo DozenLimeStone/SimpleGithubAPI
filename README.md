@@ -1,5 +1,6 @@
 ### Simple Github API made with C language.
 ##### _Please do not do pull requests, rather comment in issues._
+##### _The code is in pretty bad structure. If you find any better solutions, do pull requests_
 
 It works briefly for now.
 
