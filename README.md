@@ -42,8 +42,7 @@ It works briefly for now.
     - usage ones: \
       - _char* getfile(struct requestdata* data,const char* path)_ \
       - _char* createfile(struct requestdata* data, const char* path, const char* message, const char* content)_ \
-      - _char* updatefile(struct requestdata* data, const char* path, const char* message, const char* content,_ \
-              _const char* sha)_ \
+      - _char* updatefile(struct requestdata* data, const char* path, const char* message, const char* content, const char* sha)_ \
       - _char* deletefile(struct requestdata* data, const char* path, const char* message, const char* sha)_ \
       - additional sha argument is needed, you get it by using getfile() and then obtaining the sha value \
         using jsonfind.h functions. it is shown in example main file
